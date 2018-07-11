@@ -127,5 +127,13 @@
       }
     }
   },
-  "defaultProject": "ng6-pwa-universal"
+  "defaultProject": "ng6-pwa-universal",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "inlineStyle": true,
+        "inlineTemplate": true
+      }
+    }
+  }
 }
