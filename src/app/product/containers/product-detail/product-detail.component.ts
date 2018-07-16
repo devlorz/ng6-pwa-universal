@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-product-detail',
   template: `
-    {{ product | json }}
+    <app-product [product]="product" [details]="true"></app-product>
   `,
   styles: []
 })
