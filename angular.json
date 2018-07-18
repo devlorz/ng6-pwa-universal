@@ -101,7 +101,7 @@
           "builder": "@angular-devkit/build-angular:server",
           "options": {
             "outputPath": "dist/ng6-pwa-universal-server",
-            "main": "src/main.server.ts",
+            "main": "src/dist/ng6-pwa-universal.ts",
             "tsConfig": "src/tsconfig.server.json"
           },
           "configurations": {
